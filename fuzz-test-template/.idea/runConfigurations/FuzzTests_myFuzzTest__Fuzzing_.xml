@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="FuzzTests.myFuzzTest (Fuzzing)" type="JUnit" factoryName="JUnit">
+    <module name="fuzz-test-template" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.example" />
+    <option name="MAIN_CLASS_NAME" value="com.example.FuzzTests" />
+    <option name="METHOD_NAME" value="myFuzzTest(com.code_intelligence.jazzer.api.FuzzedDataProvider)" />
+    <option name="TEST_OBJECT" value="method" />
+    <envs>
+      <env name="JAZZER_FUZZ" value="1" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

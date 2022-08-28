@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MazeFuzzer.playGame" type="JUnit" factoryName="JUnit">
+    <module name="fuzz-test-template" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.example" />
+    <option name="MAIN_CLASS_NAME" value="com.example.MazeFuzzer" />
+    <option name="METHOD_NAME" value="playGame" />
+    <option name="TEST_OBJECT" value="method" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,13 @@
+{
+    "java.test.config": [
+        {
+            "name": "default",
+            "workingDirectory": "${workspaceFolder}"
+        },
+        {
+            "name": "fuzzing",
+            "workingDirectory": "${workspaceFolder}",
+            "env": {"JAZZER_FUZZ": "true"}
+        }
+    ]
+}

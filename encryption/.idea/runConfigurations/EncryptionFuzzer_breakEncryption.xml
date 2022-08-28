@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="EncryptionFuzzer.breakEncryption" type="JUnit" factoryName="JUnit">
+    <module name="encryption" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="PACKAGE_NAME" value="com.example" />
+    <option name="MAIN_CLASS_NAME" value="com.example.EncryptionFuzzer" />
+    <option name="METHOD_NAME" value="breakEncryption" />
+    <option name="TEST_OBJECT" value="method" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
